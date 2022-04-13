@@ -4,7 +4,9 @@
 </head>
 <body>
     <navbar>
-        <a href="/">Home</a>
+        <a href="{{ url_for('Home') }}">Home</a>
+        <a href="{{ url_for('New_Festival') }}">New Festival</a>
+        <a href="{{ url_for('Add_Stage') }}">Add Stage</a>
     </navbar>
     <h1>Festival Planner</h1>
     {% block body %}
