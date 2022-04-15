@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block body %} 
+<br><br>
+Your Festival: {{Festival.Name}}
+<br><br>
+<form action ='' method = 'POST'>
+    {{ form.hidden_tag() }}
+    {{ form.Name.label }}: {{ form.Name }}<br>
+    {{ form.Start_Date.label }}: {{ form.Start_Date }}
+    {{ form.End_Date.label }}: {{ form.End_Date }}
+    {{ form.submit }}
+</form>
+{% endblock body %}

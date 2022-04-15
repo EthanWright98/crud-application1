@@ -4,7 +4,8 @@
 {% block body %}
 <form method="POST" action="">
     {{ form.hidden_tag() }}
-    {{ form.name.label }} {{ form.name }}<br>
+    {{ form.Name.label }}: {{ form.Name }}<br>
+    {{ form.Festival_id.label }}: {{ form.Festival_id }}<br>
     {{ form.submit }}
 
 
