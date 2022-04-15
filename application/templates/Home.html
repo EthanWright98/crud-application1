@@ -1,6 +1,25 @@
 {% extends "layout.html" %}
 
 {% block body %}
+
 <h2>Festivals and Stages</h2>
+{% for festival in all_festivals %}
+<p>
+    Name: {{ festival.Name }}<br>
+    Start Date: {{ festival.Start_Date }}<br>
+    End Date: {{ festival.End_Date }}
+    <br>
+{% for stage in festival.Stages %}
+    Name: {{ stage.Name }}
+    {% endfor %}
+    <form action= "{{url_for('update', id=festival.id)}}" >
+        <input type = submit value="Update">
+    </form>
+    <form action= "{{url_for('delete', id=festival.id)}}" >
+        <input type = submit value="Delete"> 
+    </form>
+</p>
+{% endfor %}
+
 
 {% endblock body %}

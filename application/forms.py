@@ -1,9 +1,10 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, DateField, SubmitField
+from wtforms import StringField, DateField, SubmitField, IntegerField
 from wtforms.validators import DataRequired, Length
 
 class StageForm(FlaskForm):
-    name = StringField('Stage Name', validators=[DataRequired(), Length(max=100)])
+    Name = StringField('Stage Name', validators=[DataRequired(), Length(max=100)])
+    Festival_id = IntegerField('Which Festival?', validators=[DataRequired()])
     submit = SubmitField('Add Stage')
 
 
