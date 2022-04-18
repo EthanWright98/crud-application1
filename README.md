@@ -55,3 +55,7 @@ In order to track progess for my project, see goals and meet the MVP i used trel
 <br>
 <br>
 ![screenshot](%20board.PNG)
+<br>
+<br>
+<br>
+<br>
