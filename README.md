@@ -34,6 +34,9 @@ This idea is a one to many relationship between two tables being one festival ca
 <br>
 <br>
 ![screenshot](Capture%20ERD.PNG)
+<br>
+<br>
+<br>
 
 
 
