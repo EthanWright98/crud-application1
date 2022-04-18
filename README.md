@@ -37,6 +37,12 @@ This idea is a one to many relationship between two tables being one festival ca
 <br>
 <br>
 <br>
+## risk assesment
+<br>
+For this project i created a risk assesment to show potential threats and at which level they would impact my work, i was able to use the risk assesment to create a more secure app through mitigation and responses to threats.
+<br>
+<br>
+<br>
 
-
+![screenshot](Risk%20assesment%202.PNG)
 
