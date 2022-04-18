@@ -3,4 +3,4 @@ flask_sqlalchemy
 pymysql
 flask_wtf
 pytest
-
+flask-testing
