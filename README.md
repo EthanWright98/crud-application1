@@ -54,6 +54,5 @@ In order to track progess for my project, see goals and meet the MVP i used trel
 <br>
 <br>
 <br>
-![screenshot](https://github.com/EthanWright98/crud-application1/blob/main/Trello%20board.PNG)
-
-
+<br>
+![image](https://user-images.githubusercontent.com/101715806/163796114-41870b38-aed0-4f74-b49c-4b9a40c4c389.png)
