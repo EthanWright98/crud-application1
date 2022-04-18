@@ -1,5 +1,6 @@
 from flask import url_for
 from flask_testing import TestCase
+import pytest
 
 from application import app, db
 from application.models import Festivals
