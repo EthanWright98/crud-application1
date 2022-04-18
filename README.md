@@ -52,6 +52,6 @@ In order to track progess for my project, see goals and meet the MVP i used trel
 <br>
 <br>
 <br>
-![screenshot(Trello%20board.PNG)
+![screenshot](Trello%20board.PNG)
 
 
