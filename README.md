@@ -45,4 +45,11 @@ For this project i created a risk assesment to show potential threats and at whi
 <br>
 
 ![screenshot](Risk%20assesment%202.PNG)
-
+<br>
+<br>
+<br>
+## Project Tracking
+<br>
+In order to track progess for my project, see goals and meet the MVP i used trello to create a board displaying requirements and keeping me up to schedule. Elements of the prject move across the baord left to right from the idea up until being finished and impletmented into the project
+<br>
+![screenshot](%20board.PNG)
