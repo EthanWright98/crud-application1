@@ -1,9 +1,10 @@
 from flask import url_for
 from flask_testing import TestCase
 import pytest
+from flask_sqlalchemy import SQLAlchemy
 
 from application import app, db
-from application.models import Festivals
+from application.models import Festivals, Stages
 
 
 class TestBase(TestCase):
@@ -45,16 +46,19 @@ class TestVeiw(TestBase):
         response = self.client.get(url_for('Add_Stage'))
         self.assertEqual(response.status_code, 200)
 
-#class TestUpdate(TestBase):
-    #def test_home_edit(self):
-        #response = self.client.post(
-            #url_for('update/<int:id>')
-            #data = dict(Name='Test2',Start_Date='11/01/2023', End_Date='22/01/2023')
-        #),
-        #follow_redirects= True
-        
-        #self assertIn(Name='Test3',Start_Date='22/12/2023', End_Date='25/11/2023', response.data)
+class TestUpdate(TestBase):
+    def test_home_edit(self):
+        response = self.client.post(
+            url_for('update', id=1),
+            data = dict(Name='test2', Start_Date='01/01/2023', End_Date='03/01/2023'
+            ),
+            follow_redirects = True
+        )
+        self.assertNotIn(b'test2', response.data)
 
+    def test_delete(self):
+        response = self.client.delete(url_for('delete',id=1))
+        self.assertNotIn(b'Name', response.data)
 
 
 
