@@ -52,5 +52,5 @@ In order to track progess for my project, see goals and meet the MVP i used trel
 <br>
 <br>
 <br>
-![screenshot](Trello%20board.PNG?raw=true "title")
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
