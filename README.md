@@ -7,7 +7,7 @@
 
 ## Objectives
 
-The objective for this project was to create a simple CRUD application (Create, Read, Update and Delete).
+The objective for this project was to create a simple CRUD application (Create, Read, Update and Delete). (LINK TO APP EXPLANAITION: https://drive.google.com/file/d/1EbqcdIVEaJoIp6moT6cuZUYT5RzTc_Si/view?usp=sharing )
 
 In this project i showcases my ability to:
 
