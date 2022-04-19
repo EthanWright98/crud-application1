@@ -55,3 +55,35 @@ In order to track progess for my project, see goals and meet the MVP i used trel
 
 ![image](https://user-images.githubusercontent.com/101715806/163796114-41870b38-aed0-4f74-b49c-4b9a40c4c389.png)
 
+<br>
+<br>
+<br>
+
+## jenkins Testing and CI pipeline
+<br>
+<br>
+Jenkins was implemted into my project to provide reports and automate testing of code, a webhook was also set up to mirror changes made within the github repository into the jenkins system. Below are the instructions i gave jenkins within the execute shell in order for it to be able to create a virtual environment and install requirements needed for the applcation to run.
+<br>
+<br>
+#!/bin/bash<br>
+python3 -m venv venv<br>
+. ./venv/bin/activate<br>
+pip3 install -r requirements.txt<br>
+pip3 install pytest<br>
+pip install pytest-cov<br>
+python3 -m pytest --cov=application --cov-report term-missing
+<br>
+<br>
+
+![image](https://github.com/EthanWright98/crud-application1/blob/main/Capture1%20jenkins%20test.PNG)
+
+## Unit Testing
+<br>
+<br>
+Unit testing was carried out within the app to help ensure functionality that was implemted was working as intended and that chnages created through user input would not cause my application to crash or error.
+<br>
+<br>
+<br>
+
+![image](https://github.com/EthanWright98/crud-application1/upload/main)
+
